@@ -73,10 +73,11 @@ Option                                  Meaning
                                         * ``lua51c`` - globals of Lua 5.1;
                                         * ``lua52`` - globals of Lua 5.2;
                                         * ``lua52c`` - globals of Lua 5.2 compiled with LUA_COMPAT_ALL;
-                                        * ``lua53`` - globals of Lua 5.3; 
-                                        * ``lua53c`` - globals of Lua 5.3 compiled with LUA_COMPAT_5_2; 
+                                        * ``lua53`` - globals of Lua 5.3;
+                                        * ``lua53c`` - globals of Lua 5.3 compiled with LUA_COMPAT_5_2;
                                         * ``luajit`` - globals of LuaJIT 2.0;
                                         * ``ngx_lua`` - globals of Openresty `lua-nginx-module <https://github.com/openresty/lua-nginx-module>`_ with LuaJIT 2.0;
+                                        * ``love`` - globals of `LÖVE <https://love2d.org>`_ (love2d) with LuaJIT 2.0;
                                         * ``min`` - intersection of globals of Lua 5.1, Lua 5.2, Lua 5.3 and LuaJIT 2.0;
                                         * ``max`` - union of globals of Lua 5.1, Lua 5.2, Lua 5.3 and LuaJIT 2.0;
                                         * ``_G``  (default) - same as ``lua51c``, ``lua52c``, ``lua53c``, or ``luajit`` depending on version of Lua used

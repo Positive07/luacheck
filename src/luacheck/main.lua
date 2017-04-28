@@ -68,6 +68,7 @@ together with used ones.]]):target("unused_secondaries"):action("store_false")
    luajit - globals of LuaJIT 2.0;
    ngx_lua - globals of Openresty lua-nginx-module
       with LuaJIT 2.0;
+   love - globals of LOVE (love2d) with LuaJIT 2.0;
    min - intersection of globals of Lua 5.1, Lua 5.2,
       Lua 5.3 and LuaJIT 2.0;
    max - union of globals of Lua 5.1, Lua 5.2, Lua 5.3
